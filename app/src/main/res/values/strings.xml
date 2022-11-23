@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Forest</string>
+    <string name="option1">Tree</string>
+    <string name="option2">Animal</string>
+    <string name="option3">Birds</string>
+    <string name="option4">Reptile</string>
+</resources>

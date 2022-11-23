@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/mapId"
+        android:title="Map"
+
+        />
+
+    <item
+        android:id="@+id/sundarbanId"
+        android:title="About Sundarban"
+
+        />
+    <item
+        android:id="@+id/treeId"
+        android:title="Tree"
+
+        />
+    <item
+        android:id="@+id/animalId"
+        android:title="Animal"
+
+        />
+    <item
+        android:id="@+id/birdId"
+        android:title="Birds"
+
+        />
+
+    <item
+        android:id="@+id/reptileId"
+        android:title="Reptile"
+
+        />
+    <!--<item
+        android:id="@+id/aboutusId"
+        android:title="About Us"
+
+        />-->
+   <!-- <item
+        android:id="@+id/profileMenuId"
+        android:title="Profile"
+
+        />-->
+
+    <item
+        android:id="@+id/logoutMenutId"
+        android:title="LogOut"
+
+        />
+
+
+
+</menu>

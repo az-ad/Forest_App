@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B5B1B1"
+    tools:context=".treeSpeciesActivity">
+
+
+    <ProgressBar
+        android:id="@+id/recyclerProgressbarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+    <EditText
+        android:id="@+id/searchEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Search here"
+        android:background="@drawable/edit_text_bg"
+        android:layout_margin="15dp"
+        android:textColor="#515050"
+        android:drawableLeft="@drawable/search_icon"/>
+
+    <!--<SearchView
+        android:background="@drawable/search_view_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchEditTextId"
+        android:queryHint="Search address.."
+        android:iconifiedByDefault="false"
+        android:layout_margin="10dp"
+        android:elevation="5dp"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layoutManager="LinearLayoutManager"/>
+-->
+
+</LinearLayout>
+
+

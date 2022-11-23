@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "462825350979",
+    "project_id": "forest-bddc3",
+    "storage_bucket": "forest-bddc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462825350979:android:911097dd049b004c2cf1f6",
+        "android_client_info": {
+          "package_name": "com.example.forest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462825350979-qkikq66fpbof9sgp26ac92mqp39nma98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIN8F8a9Zf_ma1IBm69k9QCk0gMb_bCe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462825350979-qkikq66fpbof9sgp26ac92mqp39nma98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

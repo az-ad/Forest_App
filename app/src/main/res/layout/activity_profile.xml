@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/card_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".profileActivity">
+
+   <!-- <ImageView
+        android:layout_width="200dp"
+
+        android:layout_height="300dp"
+
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/profile_user_icon" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="User Profile"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#2C2D30"
+            android:text="User Namennnnnn :"/>
+    </LinearLayout>-->
+
+
+    <ImageView
+        android:layout_marginBottom="20dp"
+
+        android:src="@drawable/profile_user_icon"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="User Profile"
+        android:textAlignment="center"
+        android:textColor="#9E1212"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="@color/yellow"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:id="@+id/userNameTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="Name :"
+            android:textColor="#9E1212"
+            />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:id="@+id/userNameTextView_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#9E1212"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#A39B9B"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:id="@+id/nameTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="User Name :"
+
+
+            android:textColor="#9E1212"
+            />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:id="@+id/nameTextView_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#9E1212"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#A39B9B"/>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <TextView
+           android:textStyle="bold"
+           android:textSize="16sp"
+
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="30dp"
+           android:layout_marginBottom="20dp"
+           android:text="Email :"
+
+           android:drawableLeft="@drawable/username"
+           android:textColor="#9E1212"
+           />
+       <TextView
+           android:textStyle="bold"
+           android:textSize="16sp"
+           android:id="@+id/emailTextViewId"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="40dp"
+           android:layout_marginBottom="20dp"
+           android:textColor="#9E1212"
+           />
+   </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit profile"/>
+
+
+</LinearLayout>

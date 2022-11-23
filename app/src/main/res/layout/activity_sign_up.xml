@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".signUpActivity">
+
+    <ImageView
+        android:layout_marginBottom="20dp"
+
+        android:src="@drawable/ic_action_name"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/first_name_Id"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:hint="First name"
+        android:background="@drawable/edit_text1_bg"
+        android:drawableLeft="@drawable/username"
+        android:textColor="#FFFFFFFF"
+        />
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/last_name_Id"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/username"
+        android:hint="Last name"
+        android:textColor="#FFFFFFFF"
+        android:background="@drawable/edit_text1_bg"
+        />
+    <EditText
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/signUpUserNameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:hint="User name"
+        android:background="@drawable/edit_text1_bg"
+        android:drawableLeft="@drawable/username"
+        android:textColor="#FFFFFFFF"
+        />
+    <EditText
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/signUpEmailEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/username"
+        android:hint="Email"
+        android:textColor="#FFFFFFFF"
+        android:background="@drawable/edit_text1_bg"
+        />
+
+
+
+    <EditText
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:id="@+id/signUpPasswordEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/username"
+        android:hint="Password"
+        android:textColor="#FFFFFFFF"
+        android:background="@drawable/edit_text1_bg"
+        />
+
+
+    <Button
+        android:id="@+id/signUpButtonId"
+
+        android:text="Sign Up"
+        android:textColor="#FFEDF9"
+        android:textSize="20sp"
+
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#9D39A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <TextView
+        android:id="@+id/logInTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Already a user?Log in"
+        android:textAlignment="center"/>
+    <ProgressBar
+        android:id="@+id/progressbarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

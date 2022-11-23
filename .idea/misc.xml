@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Forest/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.136" />
+        <entry key="..\:/Forest/app/src/main/res/drawable-anydpi/password_lock.xml" value="0.145" />
+        <entry key="..\:/Forest/app/src/main/res/drawable-anydpi/username.xml" value="0.138" />
+        <entry key="..\:/Forest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1575" />
+        <entry key="..\:/Forest/app/src/main/res/drawable/background.xml" value="0.155" />
+        <entry key="..\:/Forest/app/src/main/res/drawable/buttonshape.xml" value="0.1245" />
+        <entry key="..\:/Forest/app/src/main/res/drawable/edit_text1_bg.xml" value="0.1" />
+        <entry key="..\:/Forest/app/src/main/res/drawable/edit_text_bg.xml" value="0.1" />
+        <entry key="..\:/Forest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1575" />
+        <entry key="..\:/Forest/app/src/main/res/drawable/search_view_bg.xml" value="0.152" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_add_animal_species.xml" value="0.10130718954248366" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_add_bird_species.xml" value="0.10130718954248366" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_add_reptile_species.xml" value="0.10130718954248366" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_add_reptile_species_main.xml" value="0.10130718954248366" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_add_tree_species.xml" value="0.14666666666666667" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_animal.xml" value="0.10130718954248366" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_animal_species.xml" value="0.10130718954248366" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_bird.xml" value="0.10130718954248366" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_bird_species.xml" value="0.10130718954248366" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_google_map.xml" value="0.184375" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_log_in.xml" value="0.22" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_main2.xml" value="0.22" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_main3.xml" value="0.22" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_main4.xml" value="0.1" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_reptile.xml" value="0.10130718954248366" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_reptile_species.xml" value="0.10130718954248366" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_species.xml" value="0.1" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_species_class.xml" value="0.16666666666666666" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_sundorban.xml" value="0.10130718954248366" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_tree.xml" value="0.1" />
+        <entry key="..\:/Forest/app/src/main/res/layout/activity_tree_species.xml" value="0.14666666666666667" />
+        <entry key="..\:/Forest/app/src/main/res/layout/item_layout.xml" value="0.11233660130718955" />
+        <entry key="..\:/Forest/app/src/main/res/menu/menu_layout.xml" value="0.1" />
+        <entry key="..\:/Forest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.138" />
+        <entry key="..\:/Forest/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.138" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

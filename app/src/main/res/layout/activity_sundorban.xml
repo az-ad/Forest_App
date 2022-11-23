@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sundorbanActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/imageNameTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The Sundarbans mangrove forest, one of the largest such forests in the world (140,000 ha), lies on the delta of the Ganges, Brahmaputra and Meghna rivers on the Bay of Bengal. It is adjacent to the border of India’s Sundarbans World Heritage site inscribed in 1987. The site is intersected by a complex network of tidal waterways, mudflats and small islands of salt-tolerant mangrove forests, and presents an excellent example of ongoing ecological processes. The area is known for its wide range of fauna, including 260 bird species, the Bengal tiger and other threatened species such as the estuarine crocodile and the Indian python."
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+        <ImageView
+            android:id="@+id/imageViewId"
+            android:background="@drawable/sundarban3"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The three wildlife sanctuaries in the south cover an area of 139,700 ha and are considered core breeding areas for a number of endangered species. Situated in a unique bioclimatic zone within a typical geographical situation in the coastal region of the Bay of Bengal, it is a landmark of ancient heritage of mythological and historical events. Bestowed with magnificent scenic beauty and natural resources, it is internationally recognized for its high biodiversity of mangrove flora and fauna both on land and water."
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+        <ImageView
+
+            android:background="@drawable/sundarban1"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The immense tidal mangrove forests of Bangladeshs’ Sundarbans Forest Reserve, is in reality a mosaic of islands of different shapes and sizes, perennially washed by brackish water shrilling in and around the endless and mind-boggling labyrinths of water channels. The site supports exceptional biodiversity in its terrestrial, aquatic and marine habitats; ranging from micro to macro flora and fauna. The Sundarbans is of universal importance for globally endangered species including the Royal Bengal Tiger, Ganges and Irawadi dolphins, estuarine crocodiles and the critically endangered endemic river terrapin (Batagur baska).  It is the only mangrove habitat in the world for Panthera tigris tigris species."
+              android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <ImageView
+
+            android:background="@drawable/tiger"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
